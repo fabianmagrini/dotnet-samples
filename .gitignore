@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+
+# VS Code
+.vscode/*
+
+# asp.net core
+[Bb]in/
+[Oo]bj/
+
+# Logs
+*.log
+
+# Developement database
+app.db
