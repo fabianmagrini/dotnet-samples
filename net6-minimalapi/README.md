@@ -6,6 +6,7 @@ References:
 * <https://docs.microsoft.com/en-au/learn/modules/build-web-api-minimal-api/>
 * <https://docs.microsoft.com/en-au/learn/modules/build-web-api-minimal-database/>
 * <https://docs.microsoft.com/en-au/learn/modules/build-web-api-minimal-spa/>
+* <https://gist.github.com/davidfowl/ff1addd02d239d2d26f4648a06158727>
 
 The following commands are for MacOS.
 
