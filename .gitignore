@@ -12,4 +12,4 @@
 *.log
 
 # Developement database
-app.db
+app.db*
