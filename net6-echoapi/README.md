@@ -2,6 +2,14 @@
 
 Containerising a minimal web api with Asp.Net Core 6.0.
 
+References:
+
+* <https://docs.microsoft.com/en-us/aspnet/core/security/docker-https?view=aspnetcore-6.0>
+* <https://github.com/dotnet/dotnet-docker/blob/main/samples/run-aspnetcore-https-development.md>
+* <https://github.com/dotnet/dotnet-docker/blob/main/samples/host-aspnetcore-https.md>
+* <https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-6.0&tabs=visual-studio>
+* <https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/>
+
 ## Prerequisites
 
 * .Net 6.0
