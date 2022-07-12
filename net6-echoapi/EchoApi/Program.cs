@@ -16,8 +16,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
 var version = Environment.GetEnvironmentVariable("VERSION") ?? "1.0.0";
 
 app.MapGet("/", () => $"version {version}");
