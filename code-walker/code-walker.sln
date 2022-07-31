@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A126DADA-B531-4C3F-857C-916437306DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWalker", "CodeWalker\CodeWalker.csproj", "{2D1484EC-4399-49BA-809C-98923CBAEF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "Common.Tests\Common.Tests.csproj", "{14A4D8BA-8D2C-42E6-B105-BA9AFBE4CC09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A126DADA-B531-4C3F-857C-916437306DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A126DADA-B531-4C3F-857C-916437306DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A126DADA-B531-4C3F-857C-916437306DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A126DADA-B531-4C3F-857C-916437306DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1484EC-4399-49BA-809C-98923CBAEF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1484EC-4399-49BA-809C-98923CBAEF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1484EC-4399-49BA-809C-98923CBAEF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1484EC-4399-49BA-809C-98923CBAEF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A4D8BA-8D2C-42E6-B105-BA9AFBE4CC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A4D8BA-8D2C-42E6-B105-BA9AFBE4CC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A4D8BA-8D2C-42E6-B105-BA9AFBE4CC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A4D8BA-8D2C-42E6-B105-BA9AFBE4CC09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
