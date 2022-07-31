@@ -2,6 +2,14 @@
 
 Traverse through a folder and execute an action on files.
 
+References:
+
+* <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-iterate-through-a-directory-tree>
+* <https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/>
+* <https://aspnetcore.readthedocs.io/en/stable/fundamentals/configuration.html>
+* <https://andrewlock.net/converting-web-config-files-to-appsettings-json-with-a-net-core-global-tool/>
+* <https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference>
+
 ## Prerequisites
 
 * .Net 6.0
