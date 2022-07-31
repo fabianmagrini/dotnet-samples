@@ -1,13 +1,12 @@
-﻿using System.Text.RegularExpressions;
-using Common;
+﻿using Common;
 
+ConfigValidator configValidator = new ConfigValidator();
 Walker w = new Walker();
 w.Traverse(".", (fi) => 
 { 
-    // Match the end of a string.
-    if (Regex.IsMatch(fi.Name.ToLower(), @"(applicationhost\.config|app\.config|web\.config|appsettings\.json)$"))
+    
+    if (configValidator.IsValid(fi)) 
     {
-        //Console.WriteLine("{0}: {1}, {2}", fi.FullName, fi.Name, fi.Extension); 
         Console.WriteLine("{0}", fi.FullName); 
     }
     

@@ -2,10 +2,10 @@ using Common;
 
 namespace Common.Tests;
 
-public class UnitTest1
+public class TraverseTest
 {
     [Fact]
-    public void Test1()
+    public void WalkFromRoot()
     {
         Walker w = new Walker();
         w.Traverse(".", (fi) => 
@@ -14,4 +14,6 @@ public class UnitTest1
             return true;
         });
     }
+
+    
 }
